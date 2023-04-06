@@ -58,4 +58,23 @@ To combine the PHP and Java code into a single file, an HTML file is used. The P
 The source of the iframe is set to the Java file. When the HTML file is loaded in a web browser, the PHP code displays the current time and the Java digital clock is displayed in the iframe. The Java digital clock updates the time every second.
 
 
+Description:
+Digital Clock using PHP and Java
+This is a simple project that combines PHP and Java to create a digital clock. The PHP code is used to display the current time and the Java code is used to create a digital clock that updates the time automatically every second.
 
+How to Use
+Clone or download the project files.
+Open the index.html file in a web browser.
+The current time will be displayed using PHP.
+The Java digital clock will be displayed in an iframe and will update the time every second.
+Technologies Used
+PHP
+Java
+HTML
+Code Overview
+The PHP code uses the date() function to display the current time.
+The Java code creates a JFrame with a JLabel to display the time and updates the time using the Timer class.
+An HTML file is used to combine the PHP and Java code into a single file using an iframe.
+Credits
+The Java code for the digital clock was adapted from this tutorial.
+[Draw](http://lotteryustad.in/)
